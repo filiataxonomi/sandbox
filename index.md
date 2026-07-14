@@ -2,11 +2,14 @@
 title: "Rylington Park — The Public Record"
 menu: Home
 kicker: "The Public Record"
-blurb: "The Shire of Boyup Brook's own records about Rylington Park, gathered in one place."
+blurb: "The Shire of Boyup Brook's Rylington Park public record where the public can find it."
 ---
 
-RYLINGTON PARK — IT BELONGS TO ALL OF US a community asset, held in trust
-This site brings together the Shire of Boyup Brook's own public documents about the property — minutes, financial reports, the Charter and annual reports — in one place that is easy to read.
+RYLINGTON PARK — IT BELONGS TO ALL OF US
+
+ a community asset, held in trust
+
+This site brings together the Shire of Boyup Brook's public documents about the property — minutes, financial reports, the Charter and annual reports — in one place that is easy to read.
 
 Every figure and statement links to the original document so you can check it yourself. This site puts the public record where the public can find it.
 
@@ -14,17 +17,17 @@ Every figure and statement links to the original document so you can check it yo
 
 ## About Rylington Park
 
-Rylington Park is a 650-hectare farm at Mayanup, about 27km from Boyup Brook. It was gifted to the Shire of Boyup Brook in 1985 by the late Mr Eric Farleigh. His will, dated 8 June 1988, states:
+Mr Eric Farleigh
 
 > "Without creating any specific trust it is my wish that my farming property be retained by the Shire of Boyup Brook for the benefit of persons within the Shire and for research purposes and that my farming records and other records are kept with my farming property."
 
 Source: [Charter of Rylington Park Institute for Agricultural Training and Research](charter.html) (quoting the will of Eric Farleigh, 8 June 1988).
 {: .src}
 
-The property previously operated as the Rylington Park Institute for Agricultural Training and Research. In February 2026 the Council decided to lease out the property and in April 2026 voted to approve the occupation of the homestaed by the current CEO Leonard Long.
+
 In October 2021 the Shire signed a 20-year Memorandum of Understanding with Edith Cowan University for agricultural research and education at the property ([Shire of Boyup Brook — Rylington Park page](https://www.boyupbrook.wa.gov.au/community/education/rylington-park.aspx)).
 
-In November 2021, after public consultation, the Shire adopted a Charter setting objectives for how Rylington Park is to be run. The Charter is on the [next page](charter.html).
+In November 2021, the Shire adopted a Charter setting objectives for how Rylington Park is to be run. 
 
 ## How to use this site
 
