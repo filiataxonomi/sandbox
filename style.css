@@ -260,7 +260,7 @@ audio { display: block; width: 100%; max-width: 680px; margin: 0.6rem 0 0.8rem; 
 /* ---------- HOME MENU CARDS ---------- */
 .cards {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 1px;
   background: #ddd;
   border: 1px solid #ddd;
@@ -269,7 +269,7 @@ audio { display: block; width: 100%; max-width: 680px; margin: 0.6rem 0 0.8rem; 
 
 .cards a {
   background: #fff;
-  padding: 1.2rem 1.3rem;
+  padding: 0.8rem 0.9rem;
   text-decoration: none;
   color: #111;
 }
@@ -282,8 +282,8 @@ audio { display: block; width: 100%; max-width: 680px; margin: 0.6rem 0 0.8rem; 
   color: #bbb;
 }
 
-.cards strong { display: block; font-size: 1rem; margin: 0.2rem 0 0.3rem; }
-.cards span { font-size: 0.82rem; color: #666; }
+.cards strong { display: block; font-size: 0.9rem; margin: 0.15rem 0 0.2rem; }
+.cards span { font-size: 0.76rem; color: #666; line-height: 1.5; }
 
 /* ---------- SUB-MENU (within a section) ---------- */
 .submenu {
@@ -408,7 +408,8 @@ footer a { color: #666; }
 
 /* ---------- SMALL SCREENS ---------- */
 @media (max-width: 640px) {
-  .cards, .law-vs { grid-template-columns: 1fr; }
+  .cards { grid-template-columns: 1fr 1fr; }
+  .law-vs { grid-template-columns: 1fr; }
   header.page-head h1 { font-size: 1.3rem; }
   .menu { gap: 1rem; }
   .timeline .step { flex-direction: column; gap: 0.1rem; }
