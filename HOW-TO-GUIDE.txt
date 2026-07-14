@@ -1,0 +1,159 @@
+JEKYLL SANDBOX - HOW-TO GUIDE
+Rylington Park site template system
+Written 14 July 2026
+
+WHAT THIS IS
+A practice copy of a template-based version of the site. GitHub has a
+built-in engine called Jekyll. You give it one design file plus plain
+text pages, and it assembles the finished site itself. You edit words,
+never HTML. This sandbox is completely separate from the live site -
+nothing you do here can affect filiataxonomi.github.io/BBRylingtonPark.
+
+WHAT EACH FILE IS
+
+  _config.yml            Site settings (5 lines). Set once, ignore.
+  _layouts/default.html  THE DESIGN. Menu bar, header, footer, page
+                         structure. The only HTML file. You never
+                         touch it - Claude maintains this one.
+  _data/nav.yml          THE MENU. Plain text, two lines per menu
+                         item. This is yours to edit.
+  style.css              Colours, fonts, spacing. Same file as the
+                         live site. You never touch it.
+  index.md               The home page. Yours.
+  sample-page.md         A page showing every kind of content. Yours.
+  bare-minimum.md        The smallest possible page. Yours.
+
+The .md files and nav.yml are plain text. Open them on your Mac with
+TextEdit. IMPORTANT: TextEdit must be in plain text mode - if you see
+a formatting toolbar, go to Format menu > Make Plain Text before
+saving. (A free editor like CotEditor from the Mac App Store is more
+comfortable, but TextEdit works.)
+
+HOW A PAGE FILE WORKS
+Every page starts with a header block between two lines of three
+dashes:
+
+  ---
+  title: "The Charter"
+  menu: The Charter
+  kicker: "Adopted December 2021"
+  blurb: "The standard the Shire set for itself."
+  ---
+
+  Your words start here, below the second dashed line.
+
+title  = browser tab + the big heading on the page. Keep the double
+         quotes around it - they prevent errors if the title contains
+         a colon.
+menu   = which menu item gets underlined when you are on this page.
+         Must match the label in nav.yml exactly. Optional.
+kicker = small grey line above the heading. Optional - delete the
+         line and it disappears.
+blurb  = intro paragraph under the heading. Optional too.
+
+WRITING THE WORDS (MARKDOWN)
+  Paragraph        just type it, blank line between paragraphs
+  ## Heading       two hashes and a space
+  ### Sub-heading  three hashes and a space
+  **bold**         two asterisks each side
+  *italic*         one asterisk each side
+  [words](url)     a link - words in square brackets, address in
+                   round brackets
+  > quoted text    a blockquote - greater-than sign and a space
+  - item           a list - hyphen and a space, one per line
+  1. item          numbered list
+
+  Source line (small grey citation): write a normal paragraph, then
+  put {: .src} alone on the very next line.
+
+  Link to a PDF in the documents folder:
+  [Read the minutes (PDF)](documents/filename.pdf)
+
+  Image: ![description](filename.png)
+
+THE HOME PAGE CARDS (_data/cards.yml)
+The numbered cards on the home page live in _data/cards.yml - three
+lines per card (title, text, url). Add, delete and reorder them the
+same way as the menu. The numbers renumber themselves automatically.
+The line {% include cards.html %} in index.md marks WHERE the cards
+sit on the page - leave that line alone (you can move it up or down
+the page as a whole line, or delete it to remove the cards).
+
+THE MENU (_data/nav.yml)
+Two lines per item:
+
+  - label: The Charter
+    url: charter.html
+
+ADD a menu item: add two lines like that anywhere in the list.
+DELETE one: delete its two lines.
+REORDER: move the pairs around.
+NOTE the url ends in .html even though you edit charter.md - GitHub
+converts .md files to .html pages. Keep the spacing exactly as shown:
+"- label:" starts at the left edge, "url:" has two spaces before it.
+
+ADD A WHOLE NEW PAGE
+1. Copy bare-minimum.md on your Mac, rename it, e.g. petition.md
+   (lowercase, hyphens instead of spaces, no other punctuation).
+2. Change the title and menu lines, write your words.
+3. Add it to nav.yml:
+     - label: The Petition
+       url: petition.html
+4. Upload both changed files (steps below).
+
+DELETE A PAGE
+Remove its two lines from nav.yml and upload nav.yml. (The page still
+exists if someone has the direct link; to remove it fully, delete the
+.md file in GitHub: open the file on github.com, click the three dots
+top right, Delete file, commit.)
+
+SETTING UP THE SANDBOX ON GITHUB (ONE-OFF)
+1. Log in to github.com. Click the + (top right) > New repository.
+2. Name it: sandbox (any name is fine). Set it to Public. Tick "Add a
+   README file". Click Create repository.
+3. Click "Add file" > "Upload files". Drag EVERYTHING in this JEKYLL
+   SANDBOX folder onto the page - including the _layouts and _data
+   folders (drag the folders themselves; GitHub keeps the structure).
+4. Click "Commit changes".
+5. Go to Settings (in the repo) > Pages (left sidebar) > under
+   "Branch" choose main, leave "/ (root)", click Save.
+6. Wait 1-2 minutes. The page shows the address, e.g.
+   https://filiataxonomi.github.io/sandbox/
+   The Actions tab (top of the repo) shows a green tick when the
+   build has finished.
+
+MAKING A CHANGE (EVERY TIME)
+1. Edit the .md file (or nav.yml) on your Mac. Save.
+2. On github.com, open the repo, "Add file" > "Upload files", drag
+   the changed file(s) in, Commit changes. Uploading a file with the
+   same name replaces the old one - that is normal and correct.
+3. Wait about a minute, refresh the site. Done.
+
+Even quicker for small edits: open the file on github.com, click the
+pencil icon, edit right there, Commit changes. Same result.
+
+IF SOMETHING BREAKS
+Only the header block can break a page - the words below it cannot.
+If a page fails to appear or the site stops updating:
+- GitHub emails you "Page build failed" and the Actions tab shows a
+  red cross with details.
+- Check the dashed lines: exactly three dashes, nothing else on those
+  lines, and the title in double quotes.
+- Check nav.yml spacing matches the pattern exactly.
+- Worst case: re-upload the last version that worked. Keep this
+  JEKYLL SANDBOX folder on your Mac as your master copy - if the Mac
+  copy is always edited first and then uploaded, the Mac copy IS your
+  backup.
+
+WHAT STAYS WITH CLAUDE
+Design changes only: the layout file, style.css, and anything fancy
+like the card grid on the live home page. Wording, menus, new pages,
+PDFs and images are all yours.
+
+WHEN YOU ARE HAPPY WITH THE SANDBOX
+Claude converts the real BBRylingtonPark repo the same way: every
+current page becomes a .md file with the wording preserved, the
+design moves into _layouts/default.html unchanged (including the
+goatcounter visit counter), addresses stay identical so shared links
+keep working. Your editing routine is then exactly what you practised
+here.

@@ -1,0 +1,13 @@
+title: Rylington Park — The Public Record (SANDBOX)
+sitename: Rylington Park — Boyup Brook — Public Record (SANDBOX)
+
+# Every page automatically uses the design in _layouts/default.html.
+# You never need to mention the layout in your page files.
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - HOW-TO-GUIDE.txt

@@ -1,0 +1,415 @@
+/* ============================================================
+   Rylington Park — The Public Record
+   Shared stylesheet. Black & white, minimal.
+   Edit colours / fonts / spacing here and every page updates.
+   (Same design as the Flax Mill public record site.)
+   ============================================================ */
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Avenir Next', 'Avenir', system-ui, -apple-system, sans-serif;
+  background: #fff;
+  color: #111;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.page {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* ---------- PERSISTENT TOP MENU ---------- */
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #fff;
+  border-bottom: 1px solid #111;
+}
+
+.topbar-inner {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.site-name {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: #999;
+  padding: 0.9rem 0 0.6rem;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.4rem;
+  padding-bottom: 0.8rem;
+  list-style: none;
+}
+
+.menu a {
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: #444;
+  text-decoration: none;
+  padding-bottom: 0.2rem;
+  border-bottom: 2px solid transparent;
+}
+
+.menu a:hover { color: #111; }
+
+.menu a.current {
+  color: #111;
+  font-weight: 700;
+  border-bottom: 2px solid #111;
+}
+
+/* ---------- PAGE HEADER ---------- */
+header.page-head {
+  padding: 2.6rem 0 1.6rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.kicker {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.13em;
+  color: #aaa;
+  margin-bottom: 0.6rem;
+}
+
+header.page-head h1 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.25;
+  margin-bottom: 0.9rem;
+}
+
+header.page-head p {
+  font-size: 1.05rem;
+  color: #444;
+  max-width: 680px;
+  margin-bottom: 0.5rem;
+}
+
+/* ---------- BODY CONTENT ---------- */
+main { padding: 2rem 0 3rem; }
+
+main h2 {
+  font-size: 1.05rem;
+  font-weight: 800;
+  margin: 2.2rem 0 0.8rem;
+  line-height: 1.3;
+}
+
+main h3 {
+  font-size: 0.92rem;
+  font-weight: 700;
+  margin: 1.6rem 0 0.4rem;
+}
+
+main p {
+  font-size: 1.05rem;
+  color: #222;
+  margin-bottom: 0.9rem;
+  max-width: 680px;
+}
+
+main ul, main ol { margin: 0.4rem 0 1.1rem 1.4rem; max-width: 680px; }
+main li { margin-bottom: 0.4rem; }
+
+main a { color: #111; }
+
+/* a quote from a Shire document */
+blockquote {
+  border-left: 3px solid #111;
+  margin: 0.9rem 0 1.1rem;
+  padding: 0.2rem 0 0.2rem 1.1rem;
+  color: #333;
+  font-style: italic;
+  max-width: 680px;
+}
+
+/* ---------- TABLES ---------- */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 680px;
+  margin: 0.6rem 0 1.4rem;
+  font-size: 0.86rem;
+}
+
+th, td {
+  text-align: left;
+  padding: 0.4rem 0.7rem;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+th {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.7rem;
+  color: #888;
+  border-bottom: 1px solid #111;
+}
+
+tr.total td { font-weight: 700; border-bottom: 1px solid #111; }
+
+/* source line under a table or block */
+.src {
+  font-size: 0.72rem;
+  color: #999;
+  margin-bottom: 0.6rem;
+}
+.src a { color: #666; }
+
+/* ---------- TIMELINE (FOI status) ---------- */
+.timeline { max-width: 680px; margin: 0.6rem 0 1.4rem; }
+.timeline .step {
+  display: flex;
+  gap: 1rem;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid #eee;
+}
+.timeline .date {
+  flex: 0 0 110px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #111;
+  white-space: nowrap;
+}
+.timeline .what { font-size: 0.92rem; color: #333; }
+.timeline .step.pending .date,
+.timeline .step.pending .what { color: #999; }
+
+/* ---------- DOWNLOAD / SOURCE BUTTONS ---------- */
+.dl-link {
+  display: inline-block;
+  font-size: 0.75rem;
+  color: #111;
+  border: 1px solid #111;
+  padding: 0.3rem 0.8rem;
+  border-radius: 2px;
+  text-decoration: none;
+  margin: 0.3rem 0.4rem 0.3rem 0;
+}
+
+.dl-link:hover { background: #111; color: #fff; }
+
+/* ---------- EMBEDDED SCROLLABLE PDF / AUDIO ---------- */
+.docview {
+  width: 100%;
+  height: 640px;
+  border: 1px solid #ddd;
+  display: block;
+  margin: 0.6rem 0 0.8rem;
+}
+
+audio { display: block; width: 100%; max-width: 680px; margin: 0.6rem 0 0.8rem; }
+
+/* two figures/laws side by side */
+.law-vs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: #ddd;
+  border: 1px solid #ddd;
+  max-width: 680px;
+  margin: 1rem 0 1.4rem;
+}
+.law-vs > div { background: #fff; padding: 1rem 1.1rem; }
+.law-vs .label {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #999;
+  margin-bottom: 0.4rem;
+}
+.law-vs p { font-size: 0.92rem; margin-bottom: 0.5rem; }
+
+/* ---------- DOCUMENT / SOURCE CARDS ---------- */
+.doc-card {
+  padding: 1rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.doc-card .date {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #bbb;
+  margin-bottom: 0.2rem;
+}
+
+.doc-card strong {
+  display: block;
+  font-size: 0.95rem;
+  margin-bottom: 0.25rem;
+}
+
+.doc-card p { font-size: 0.85rem; color: #555; margin-bottom: 0.4rem; }
+
+/* ---------- HOME MENU CARDS ---------- */
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: #ddd;
+  border: 1px solid #ddd;
+  margin: 1.6rem 0;
+}
+
+.cards a {
+  background: #fff;
+  padding: 1.2rem 1.3rem;
+  text-decoration: none;
+  color: #111;
+}
+
+.cards a:hover { background: #fafafa; }
+
+.cards .num {
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  color: #bbb;
+}
+
+.cards strong { display: block; font-size: 1rem; margin: 0.2rem 0 0.3rem; }
+.cards span { font-size: 0.82rem; color: #666; }
+
+/* ---------- SUB-MENU (within a section) ---------- */
+.submenu {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 0.4rem 0 1.4rem;
+  color: #999;
+}
+.submenu a { color: #444; text-decoration: none; margin-right: 1rem; }
+.submenu a:hover { color: #111; text-decoration: underline; }
+.submenu a.current { color: #111; font-weight: 700; }
+
+/* ---------- CHIP IN PAGE ---------- */
+.chip-intro { max-width: 680px; }
+
+.payid-card {
+  max-width: 460px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1.6rem 1.6rem 1.4rem;
+  margin: 1.6rem 0 2rem;
+}
+.payid-card .brand {
+  display: block;
+  width: 130px;
+  height: auto;
+  margin-bottom: 1.2rem;
+}
+.payid-row { margin-bottom: 1rem; }
+.payid-row:last-child { margin-bottom: 0; }
+.payid-label {
+  display: block;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #999;
+  margin-bottom: 0.35rem;
+}
+.payid-value { font-size: 1.05rem; color: #111; font-weight: 600; }
+
+/* tap-to-copy email (email is an image, so it can't be scraped) */
+.email-copy {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  border: 1px solid #111;
+  background: #fff;
+  border-radius: 8px;
+  padding: 0.7rem 0.9rem;
+  cursor: pointer;
+  font: inherit;
+  max-width: 100%;
+}
+.email-copy:hover { background: #fafafa; }
+.email-copy:active { transform: translateY(1px); }
+.email-img { display: block; width: 200px; max-width: 100%; height: auto; }
+.copy-hint {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #555;
+}
+.copy-hint svg { width: 13px; height: 13px; }
+.email-copy.copied { background: #111; }
+.email-copy.copied .copy-hint { color: #fff; }
+.email-copy.copied .email-img { filter: invert(1); }
+
+.hours { max-width: 680px; margin-top: 2.4rem; }
+.hours-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.8rem;
+}
+.hours-table th,
+.hours-table td {
+  text-align: left;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid #eee;
+}
+.hours-table th {
+  font-size: 0.95rem;
+  border-bottom: 1px solid #ccc;
+}
+.hours-table td.hrs,
+.hours-table th.hrs { text-align: right; white-space: nowrap; }
+.hours-total { margin-top: 1rem; font-size: 1rem; }
+.hours-note {
+  margin-top: 0.8rem;
+  font-size: 0.72rem;
+  color: #999;
+  line-height: 1.5;
+}
+
+.how-to { max-width: 680px; margin-top: 2rem; }
+.how-to ol { margin: 0.6rem 0 0 1.1rem; }
+.how-to li { margin-bottom: 0.5rem; }
+
+.about { max-width: 680px; margin-top: 2.4rem; }
+
+.tm-note {
+  max-width: 680px;
+  margin-top: 2.5rem;
+  font-size: 0.72rem;
+  color: #999;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+  border-top: 1px solid #111;
+  padding: 1.4rem 0 2.4rem;
+  font-size: 0.74rem;
+  color: #999;
+}
+
+footer a { color: #666; }
+.updated { margin-top: 0.4rem; }
+
+/* ---------- SMALL SCREENS ---------- */
+@media (max-width: 640px) {
+  .cards, .law-vs { grid-template-columns: 1fr; }
+  header.page-head h1 { font-size: 1.3rem; }
+  .menu { gap: 1rem; }
+  .timeline .step { flex-direction: column; gap: 0.1rem; }
+}

@@ -1,0 +1,31 @@
+# THE MENU.
+# One menu item = two lines (label and url).
+# To ADD a menu item: add two lines like the others.
+# To DELETE a menu item: delete its two lines.
+# To REORDER the menu: move the pairs of lines around.
+# The url is the page's filename with .html on the end
+# (even though you edit the page as a .md file).
+
+- label: Home
+  url: index.html
+- label: The Charter
+  url: charter.html
+- label: Financials
+  url: financials.html
+- label: 15 April Meeting
+  url: foi-meeting.html
+- label: FOI
+  url: foi.html
+- label: Chip In
+  url: chip-in.html
+- label: Sources
+  url: sources.html
+
+# The three entries below are sandbox practice pages.
+# Delete these six lines whenever you like - good first exercise.
+- label: Markdown Help
+  url: markdown-help.html
+- label: Sample Page
+  url: sample-page.html
+- label: Bare Minimum
+  url: bare-minimum.html

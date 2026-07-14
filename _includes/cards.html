@@ -1,0 +1,9 @@
+<div class="cards">
+  {% for card in site.data.cards %}
+  <a href="{{ card.url }}">
+    <span class="num">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>
+    <strong>{{ card.title }}</strong>
+    <span>{{ card.text }}</span>
+  </a>
+  {% endfor %}
+</div>
