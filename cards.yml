@@ -1,0 +1,32 @@
+# THE CARDS on the home page.
+# One card = three lines (title, text, url).
+# Add, delete or reorder cards the same way as the menu file.
+# The numbers (01, 02...) appear automatically in order.
+
+- title: The Charter
+  text: The objectives the Shire set for Rylington Park in November 2021 — verbatim.
+  url: charter.html
+
+- title: Financials
+  text: The reserves, the farm results and the homestead spending, figure by figure, from the Shire's own reports.
+  url: financials.html
+
+- title: The 15 April 2026 Meeting
+  text: The 14-minute Special Council Meeting that approved $50,000 and CEO occupation of the homestead.
+  url: foi-meeting.html
+
+- title: "FOI: CEO Homestead Occupation"
+  text: The Freedom of Information request that followed the meeting, and where it is up to.
+  url: foi.html
+
+- title: ChatGPT and the Shire
+  text: The ChatGPT subscriptions on the Shire's corporate credit cards, month by month, and the absence of any Shire AI policy.
+  url: ai.html
+
+- title: Chip In
+  text: This record is researched and paid for by one resident. You can help if you'd like to.
+  url: chip-in.html
+
+- title: Sources
+  text: Direct links to every Shire document used on this site, plus the relevant laws.
+  url: sources.html
