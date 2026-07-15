@@ -413,3 +413,32 @@ footer a { color: #666; }
   .menu { gap: 1rem; }
   .timeline .step { flex-direction: column; gap: 0.1rem; }
 }
+
+/* ---------- PLAIN TABLES (markdown pages, e.g. main table on the ChatGPT page) ---------- */
+main table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0 1.4rem;
+  font-size: 0.85rem;
+}
+main table th, main table td {
+  text-align: left;
+  padding: 0.45rem 0.6rem 0.45rem 0;
+  border-bottom: 1px solid #eee;
+  vertical-align: top;
+}
+main table th { border-bottom: 1px solid #ccc; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; }
+
+/* ---------- FOLD-OUT (details/summary, e.g. full charge run on ChatGPT page) ---------- */
+details { margin: 0.8rem 0 1.2rem; }
+details > summary {
+  cursor: pointer;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #444;
+  padding: 0.5rem 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+details[open] > summary { border-bottom: 1px solid #ccc; }
