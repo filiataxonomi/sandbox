@@ -9,7 +9,7 @@ blurb: "The meeting that approved $50,000 of reserve funds and CEO occupation of
 
 This item is placed at the top of this page deliberately, to bring it to the community's attention. Both the published agenda and the published minutes for Item 7.1.1 — the report recommending $50,000 of reserve funds and CEO occupation of the homestead — contain the following text, word for word:
 
-> "If you would like, I can also turn this into a more polished final agenda-ready version with a nominated GL funding source and a stronger argument linked to future leasing/use of the homestead."
+> **"If you would like, I can also turn this into a more polished final agenda-ready version with a nominated GL funding source and a stronger argument linked to future leasing/use of the homestead."**
 
 That is an offer to produce "a more polished final agenda-ready version" with "a stronger argument" — and it sits in both official published documents of the Shire of Boyup Brook. It is reproduced here exactly as published, so readers can see the tone for themselves and judge what it indicates about how the item was prepared. No further comment is made.
 
@@ -52,7 +52,7 @@ The Shire audio-records its council meetings and publishes the recordings on its
 
 [Official Shire audio recording — Special Council Meeting, 15 April 2026 (MP3)](https://www.boyupbrook.wa.gov.au/Profiles/boyupbrook/Assets/ClientData/2026-04-15_SCM_Audio.mp3)
 
-The clip below is taken from that recording — the Shire's own audio of Item 7.1.1 — with captions added:
+The clip below is taken from that recording — the Shire's own audio of Item 7.1.1
 
 <video controls preload="metadata" style="display:block;width:100%;max-width:680px;margin:0.6rem 0 1rem;">
   <source src="documents/Rylington_SCM_clip_greybg.mp4" type="video/mp4">
