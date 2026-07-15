@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }} — {{ site.title }}</title>
+  <title>{% if page.title == site.title %}{{ site.title }}{% else %}{{ page.title }} — {{ site.title }}{% endif %}</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -36,7 +36,7 @@
   <footer>
     <div class="topbar-inner">
       All information on this site is taken from Shire of Boyup Brook public records and Western Australian legislation. <a href="index.html">Home</a>
-      <div class="updated">Last updated: {{ site.time | date: "%-d %B %Y" }}</div>
+      <div class="updated">Built with AI assistance, verified by a human against primary sources — <a href="about.html">full disclosure</a>. Last updated: {{ site.time | date: "%-d %B %Y" }}</div>
     </div>
   </footer>
 
