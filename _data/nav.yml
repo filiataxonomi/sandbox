@@ -16,10 +16,14 @@
   url: foi-meeting.html
 - label: FOI
   url: foi.html
+- label: ChatGPT
+  url: ai.html
 - label: Chip In
   url: chip-in.html
 - label: Sources
   url: sources.html
+- label: About This Site
+  url: about.html
 
 # The three entries below are sandbox practice pages.
 # Delete these six lines whenever you like - good first exercise.
