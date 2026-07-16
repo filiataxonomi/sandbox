@@ -12,6 +12,8 @@
   url: charter.html
 - label: Financials
   url: financials.html
+- label: The Quarantine Promise
+  url: quarantine-promise.html
 - label: 15 April Meeting
   url: foi-meeting.html
 - label: FOI
@@ -24,12 +26,3 @@
   url: sources.html
 - label: About This Site
   url: about.html
-
-# The three entries below are sandbox practice pages.
-# Delete these six lines whenever you like - good first exercise.
-- label: Markdown Help
-  url: markdown-help.html
-- label: Sample Page
-  url: sample-page.html
-- label: Bare Minimum
-  url: bare-minimum.html
