@@ -16,6 +16,12 @@ On 26 February 2026, as part of Council Decision CM 26/02/030 (the change to a l
 Source: Ordinary Council Meeting Minutes, 26 February 2026, item 10.4.8, Council Decision CM 26/02/030, p.81 — [Council Minutes 26 February 2026](https://www.boyupbrook.wa.gov.au/documents/1464/council-minutes-26-february-2026).
 {: .src}
 
+## The question the record leaves open
+
+Council's quarantine direction of 26 February 2026 was in force from that date, and the Shire President restated it publicly on 25 March. In the reporting period that closed six days after that media release — the same weeks as the year's only two payments described as "Sheep Freight" — stock program income rose by $210,113. No part of that roughly $210,000, received after the direction was given and after it was publicly repeated, appears in any published record as having been placed in the reserve the direction required. The one transfer that followed, on 25 June, was the $6,406.03 from the June ram sale.
+
+Nothing in the published minutes, reports or attachments states what the March income was from, or explains why it was not quarantined. This page will be updated if an explanation is published. The full dated record — every decision, ledger reading and payment — is below.
+
 ## The direction appears three times in the record
 
 **26 February 2026 — the Council decision.** Point 10 of CM 26/02/030, quoted above. Moved Cr Inglis, seconded Cr Wright, carried by absolute majority 5/0. The same decision set the sale timetable: all livestock to be sold "as soon as practical, but before 30 January 2027" (point 1(e)); an "On Farm" auction of all farm equipment in January/February 2027 (point 1(d)); and the farm lease to commence 1 March 2027 (point 1(c)(ii)).
@@ -40,6 +46,8 @@ Source: Rylington Park Committee Minutes, 26 March 2026, item 6.1.4, pp.24 and 3
 {: .src}
 
 The name "Rylington Park Reinstatement Farm Reserve" appears both in Council's own February decision (CM 26/02/030, point 13) and in that deferred committee recommendation. The reserve actually established on 25 June 2026 (CM 26/06/137) is named the "Rylington Park Re-establishment Reserve." The published record does not state whether these are the same reserve under a different name.
+
+For clarity: the new Re-establishment Reserve does not replace any existing reserve. It is the fourth Rylington Park reserve on the Shire's books, alongside the Working Capital Reserve (created 2020), the Community Projects Reserve (created 2020, which February's decision asked to be renamed the "Farleigh / Rylington Park Community Projects Reserve"), and the Scholarship Reserve (first appearing 2024/25) — all covered, year by year, on [the Financials page](financials.html).
 
 ## The chronology
 
